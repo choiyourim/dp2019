@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            article{
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 회원가입 양식지 만들기 -->
+        <a href="index.html">돌아가기</a>
+        <h3>회원가입</h3>
+        <hr />
+        <form>
+            <lable for="id">아이디*</lable><br>
+            <input type="id" placeholder="아이디를 입력하세요" />
+            <input type="button" onclick="alert('사용 가능한 아이디입니다.')" value="중복확인" />
+            <br>
+            <br>
+            <lavle for="password">비밀번호*</lavle><br>
+            <input type="password" placeholder="비밀번호를 입력하세요" />
+            <br>
+            <lavle for="password">비밀번호 확인*</lavle><br>
+            <input type="password" placeholder="비밀번호를 입력하세요" />
+            <br>
+            <br>
+            <lavle for="phone">휴대전화*</lavle><br>
+            <input type="phone" placeholder="전화번호 입력" />
+            <input type="button" onclick="alert('인증번호가 전송되었습니다.')" value="인증번호 받기" /><br>
+            <input type="phone" placeholder="인증번호를 입력하세요" />
+            <br>
+            <article>[인증번호]가 발송되오니, 정확한 휴대폰번호를 입력해주세요.</article>
+            <input type="checkbox" checked/>SNS수신<br>
+            <br>
+            <lavle for="email">이메일*</lavle><br>
+            <input type="email" placeholder="이메일을 입력하세요" />
+            @
+            <input type="email" placeholder="직접입력" />
+            <select>
+                    <option> 직접입력 </option>
+                    <option> naver.com </option>
+                    <option> gmail.com </option>
+                    <option> hanmail.net </option>
+                    <option> nate.com </option>
+                </select>
+            <input type="button" onclick="alert('사용 가능한 이메일입니다.')" value="중복확인" />
+            <article><이벤트/업데이트등의 소식을 받으시겠습니까?></article>
+            <input type="radio" name="bt1" />구독함                
+            <input type="radio" name="bt1" />구독안함<br />
+            <br>
+            <lavle for="D">생년월일*</lavle><br>
+            <input type="D" placeholder="년(4자)" />
+            <select>
+                <option> 월 </option>
+                <option> 1 </option>
+                <option> 2 </option>
+                <option> 3 </option>
+                <option> 4 </option>
+                <option> 5 </option>
+                <option> 6 </option>
+                <option> 7 </option>
+                <option> 8 </option>
+                <option> 9 </option>
+                <option> 10 </option>
+                <option> 11 </option>
+                <option> 12 </option>
+            </select>
+            <input type="D" placeholder="일" /><br>
+            <br>
+            <lavle for="bt2">성별*</lavle><br>
+            여자
+            <input type="radio" name="bt2" />                
+            남자
+            <input type="radio" name="bt2" />
+            <br>
+            <br>
+            
+            <lavle for="H">비밀번호 힌트</lavle><br>
+            <select>
+                <option>질문선택</option>
+                <option>인상 깊게 읽은 책 이름은?/option>
+                <option>가장 생각나는 친구 이름은?</option>
+                <option>다른 사람은 모르는 나만의 신체비밀은?</option>
+                <option>나의 보물 제1호는?</option>
+                <option>우리집 애완동물의 이름은?</option>
+                <option>내가 좋아하는 캐릭터는?</option>
+                <option>전 남친/여친의 이름은?</option>
+            </select>
+            <br>
+            <lavle for="H">힌트답변(힌트 선택 시 필수*)</lavle><br>
+            <textarea cols="30" rows="5">
+            </textarea>               
+            <br><br>
+            <hr>
+            <input type="submit" value="가입완료" />
+       </form>
+    </body>
+</html>
