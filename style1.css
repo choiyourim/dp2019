@@ -1,0 +1,5 @@
+.short_line{
+    width: 30px;
+    border-bottom: solid 1px gray;
+    margin: 10px 0px; /* 상하 좌우 */
+}

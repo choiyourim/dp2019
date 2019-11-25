@@ -1,0 +1,15 @@
+.icon{
+    
+}
+.icon li{
+    float: left;
+    list-style: none;
+}
+.icon>li>a>img{
+    width: 200px;
+}
+.clear{
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
