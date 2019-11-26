@@ -55,14 +55,13 @@ nav>ul>li:hover{
 .imgs {
     position:relative;
     overflow:hidden;
-    height:630px;
+    height:400px;
     background-color:#000;
   }
   
   .imgs>img {
     width:100%;
     position:absolute;
-    transition:all 1s;
   }
   
   .welcome {
@@ -72,14 +71,14 @@ nav>ul>li:hover{
     width:200px;
     height:60px;
     line-height: 60px;
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color:rgba(255, 255, 255, 0.2);
     border-radius:50px;
     left:50%;
     top:50%;
   }
   
   .welcome p {
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
   }
