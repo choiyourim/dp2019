@@ -1,36 +1,56 @@
 @charset "utf-8";
+
 *{
-  margin:0 auto;
-  padding:0;
-  list-style:none;
-  font-family:"맑은 고딕";
+    margin:0 auto;
+    padding:0;
+    list-style:none;
+    font-family:"맑은 고딕";
 }
+
 a{
     color:inherit;
     text-decoration: none;
 }
+
 #wrap{
     min-width: 1000px;
     max-width: 1920px;
 }
+
 body{
     background-color: rgb(240, 193, 39);
 }
+
 header{
     width: 1000px;
-    height: 250px;
+    height: 280px;
 }
+
 .logo{
+    padding: 50px 0px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
+
+#you{
+    height: 500px;
+}
+
+.long_line{
+    width: 210px;
+    border-bottom: solid 1px white;
+    margin: 10px 0px;
+    text-align: center;
+}
+
 .icon{
     width:1000px;
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
+
 .card{
     width: 250px;
     background-color: rgb(240, 193, 39);
@@ -38,31 +58,71 @@ header{
     float: left;
     color: white;
 }
-.icon>li>a>img:hover{
-    background-color:rgba(255, 255, 255, 0.4);
+
+.over{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
+
+.over>img{
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.over>img:hover{
+    width: 300px;
+    transition: 0.4s;
+}
+
 .icon>li{
     list-style: none;
     float: left;
     margin-right: auto;
     margin-left: auto;
 }
-.icon>li>a>img{
-    width: 200px;
-    text-align: center;
+
+.visual{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    padding: 12px 0px;
 }
+
+.info{
+    padding: 15px;
+}
+
+.info dl{
+    margin: 0px;
+}
+
+.info dt{
+    color: rgb(134, 70, 255)
+}
+
+.info dd{
+    margin: 0px;
+    font-size: 9px; 
+}
+
+.info .date{
+    color: gray;
+}
+
 nav{
     width: 1000px;
 }
+
 .clear{
     clear: both;
     height: 0px;
     overflow: hidden;
 }
+
 footer{
     width: 1000px;
-    border-top: solid 1px white;
-    margin-top: 75px;
     padding: 40px 0px;
     text-align: center;
     font-size: 13px;
