@@ -112,8 +112,8 @@ section>p{
 section>#about_list>li{
     float: left;
     list-style: none;
-    width: 25%; /* 100 / 4 = 25 */
-    width: calc(25% - (1px / 4 * 3) - 25px - 25px); /*clac 계산식*/
+    width: 25%; 
+    width: calc(25% - (1px / 4 * 3) - 25px - 25px); 
     border-right: solid 1px #ccc;
     padding: 25px;
 }
@@ -130,8 +130,8 @@ section dd{
 section>#about_list>li{
     float: left;
     list-style: none;
-    width: 25%; /* 100 / 4 = 25 */
-    width: calc(25% - (1px / 4 * 3) - 25px - 25px); /*clac 계산식*/
+    width: 25%;
+    width: calc(25% - (1px / 4 * 3) - 25px - 25px); 
     border-right: solid 1px #ccc;
     padding: 25px;
 }
